@@ -1,0 +1,58 @@
+.input{
+    width:377px;
+    margin-left :272px;
+    margin-top:30px;
+    
+}
+
+h1{
+  color:white;
+}
+#div{
+  border:2px solid black;
+}
+
+
+#pointer {
+    width: 456px;
+    height: 42px;
+    position: relative;
+    background: black;
+    margin-top:20px;
+    margin-left:20px;
+  }
+  #pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(255, 255, 255);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+  #pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid rgb(0, 0, 0);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+  }
+
+  .unordered{
+    margin-left: 385px;
+    margin-top:20px;
+  }
+
+
+#img{
+  height:17px;
+  width:20px;
+}
+
+

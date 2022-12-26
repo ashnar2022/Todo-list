@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(253, 245, 129);
+    background-image:url(../src/assets/backg.avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size:100% 100% ;
+
+}
